@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    @apply text-3xl text-green-500 font-bold hover:text-blue-500
+    text-center 
+}
+
+.square{
+    background-color: #ec4899;
+}
+
+p{
+    padding: 12px;
+}
+
+.carred{
+    @apply bg-red-500 text-white h-24 col-span-2 rounded-xl shadow-xl hover:shadow-red-500/60
+}
+
+.carblue{
+    
+}
+
+.caryellow{
+
+}
+
+.cargreen{
+
+}
